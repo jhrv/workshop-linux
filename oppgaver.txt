@@ -1,0 +1,14 @@
+Oppgaveforslag *nix-workshop
+
+1. Print ut antall avhengigheter vi har i test-prosjektet vårt
+2. Hvor mange kodelinjer er det i prosjektet? (ekstra utfording: ikke tell med tomme linjer)
+3. Inkrementer versjonen av prosjektet (1.0.0-SNAPSHOT => 1.0.1-SNAPSHOT, samme som release og versions pluginet til maven gjør)
+4. Lag et shell-script som gjør det samme som mvn release pluginet (kan droppe git-cmds)
+    - sjekk om prosjektet inneholder snapshot-avhengigheter
+    - fjern snapshot fra versjonen
+    - (commit)
+    - (tag)
+    - bygg og deploy til repo
+    - inkrementer versjon og legg på snapshot
+    - push
+5. Test ut curl og/eller wget kommandoen, hent ned info fra f.eks ruter eller imdb og se om man kan gjøre noe interessant med det?
